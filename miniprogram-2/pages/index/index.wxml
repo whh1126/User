@@ -1,0 +1,11 @@
+<view class="test">
+  <view data-id="a1" bindtap="scrollplace">蓝湛</view>
+  <view data-id="a2" bindtap="scrollplace">魏婴</view>
+  <view data-id="a3" bindtap="scrollplace">老祖</view>
+</view>
+
+<scroll-view class="w"  scroll-into-view="{{view}}" scroll-y="true" >
+<view id="a1" class="h">11111111111</view>
+<view id="a2" class="h">222222222222</view>
+<view id="a3" class="h">33333333</view>
+</scroll-view>
